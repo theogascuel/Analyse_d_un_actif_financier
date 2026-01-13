@@ -29,4 +29,6 @@ Après avoir installé les bibliothèques adéquates, exécuter le programme:
 ```bash
 python main.py
 ```
+![Volatilité hisorique et volatilité glissante sur 20 et 60 jours](images/vol)
+![Comparaison entre le prix ajusté et les rendements simple/logarithmique](images/prix vs rend)
 
