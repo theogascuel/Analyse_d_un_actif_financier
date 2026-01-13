@@ -20,15 +20,17 @@ Ce projet a pour but de lier modèles financiers et observations, tout en releva
     - matplotlib
     - scipy
 ### Installation des dépendances 
-Installer les dépendances avec: 
+Installez les dépendances avec: 
 ```bash
 pip install -r bibliotheques.txt
 ```
 ## Utilisation
-Après avoir installé les bibliothèques adéquates, exécuter le programme:
+Après avoir installé les bibliothèques nécessaires, exécutez le programme:
 ```bash
 python main.py
 ```
+
+![Comparaison entre le prix ajusté et les rendements simple/logarithmique](traces/prix_vs_rendements.png)
 ![Volatilité hisorique et volatilité glissante sur 20 et 60 jours](traces/vol.png)
-![Comparaison entre le prix ajusté et les rendements simple/logarithmique](traces/prix vs rend.png)
+
 
