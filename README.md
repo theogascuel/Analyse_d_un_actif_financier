@@ -35,4 +35,9 @@ python main.py
 ![Comparaison entre le prix ajusté et les rendements simple/logarithmique](traces/prix_vs_rendements.png)
 ![Volatilité hisorique et volatilité glissante sur 20 et 60 jours](traces/vol.png)
 
+## Résultats / Observations
+- Les rendements logarithmiques présentent une asymétrie négative et des queues épaisses
+- Le test de Jarque-Bera rejète l'hypothèse de normalité
+- La volatilité glissante est plus sensible aux périodes de stress
+- La VaR paramétrique/normale sous-estime légèrement le risque par rapport à la VaR historique
 
