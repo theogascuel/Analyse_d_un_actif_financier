@@ -29,6 +29,6 @@ Après avoir installé les bibliothèques adéquates, exécuter le programme:
 ```bash
 python main.py
 ```
-![Volatilité hisorique et volatilité glissante sur 20 et 60 jours](trace/vol)
-![Comparaison entre le prix ajusté et les rendements simple/logarithmique](trace/prix vs rend)
+![Volatilité hisorique et volatilité glissante sur 20 et 60 jours](traces/vol)
+![Comparaison entre le prix ajusté et les rendements simple/logarithmique](traces/prix vs rend)
 
