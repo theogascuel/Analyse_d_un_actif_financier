@@ -23,3 +23,7 @@ Ce projet a pour but de lier modèles financiers et observations, tout en releva
 Installer les dépendances avec: 
 ```bash
 pip install -r bibliotheques.txt
+## Utilisation
+Après avoir installé les bibliothèques adéquates, exécuter le programme: ```bash
+python main.py
+
