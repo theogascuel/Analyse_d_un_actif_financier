@@ -22,4 +22,4 @@ Ce projet a pour but de lier modèles financiers et observations, tout en releva
 ### Installation des dépendances 
 Installer les dépendances avec: 
 ```bash
-pip install -r bibliothèques.txt
+pip install -r bibliotheques.txt
