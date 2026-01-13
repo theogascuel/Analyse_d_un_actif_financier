@@ -24,6 +24,8 @@ Installez les dépendances avec:
 ```bash
 pip install -r bibliotheques.txt
 ```
+Le projet utilise le fichier CSV suivant contenant l’historique des prix de l’ETF :
+``data/PCEU_ETF.csv``
 ## Utilisation
 Après avoir installé les bibliothèques nécessaires, exécutez le programme:
 ```bash
