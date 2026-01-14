@@ -13,7 +13,7 @@ Ce projet a pour but de lier modèles financiers et observations, tout en releva
 - Calcul de la VaR historique et paramétrique/normale
 ## Installation et Prérequis
 ### Prérequis
-- Python 3.8 ou supérieur
+- Python 3.8 à 3.12
 - Les bibliothèques Python suivantes:
     - pandas
     - numpy
