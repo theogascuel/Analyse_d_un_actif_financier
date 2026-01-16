@@ -11,6 +11,8 @@ Ce projet a pour but de lier modèles financiers et observations, tout en releva
 - Comparaison, test et affichage d'un histogramme pour savoir si les valeurs suivent une loi normale de répartission, avec superposition de la loi normale pour faciliter la comparaison visuelle
 - Calcul et affichage de la volatilité historique et glissante sur 20 et 60 jours
 - Calcul de la VaR historique et paramétrique/normale
+- Calcul et comparaison des pertes prévues et pertes réelles
+- Début de simulation de mouvements brownien
 ## Installation et Prérequis
 ### Prérequis
 - Python 3.8 à 3.12
@@ -33,11 +35,14 @@ python main.py
 ```
 
 ![Comparaison entre le prix ajusté et les rendements simple/logarithmique](graphiques/prix_vs_rendements.png)
-![Volatilité hisorique et volatilité glissante sur 20 et 60 jours](graphiques/vol.png)
+![](graphiques/histogramme.png)
+![](graphiques/simul mvt brownien.png)
 
 ## Résultats / Observations
 - Les rendements logarithmiques présentent une asymétrie négative et des queues épaisses
 - Le test de Jarque-Bera rejète l'hypothèse de normalité
 - La volatilité glissante est plus sensible aux périodes de stress
 - La VaR paramétrique/normale sous-estime légèrement le risque par rapport à la VaR historique
+- La VaR historique est cohérente dans le calcul de pertes
+- La majorité des trajectoirs du mouvement brownien oscille autour d'une tendance moyenne, même si certaines réalisent des performances extrêmes
 
