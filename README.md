@@ -35,8 +35,8 @@ python main.py
 ```
 
 ![Comparaison entre le prix ajusté et les rendements simple/logarithmique](graphiques/prix_vs_rendements.png)
-![](graphiques/histogramme.png)
-![](graphiques/simul mvt brownien.png)
+![Histogramme de comparaison entre les rendements logarithmiques et une distribution normale](graphiques/histogramme.png)
+![Graphique de cinq simulations de mouvement brownien](graphiques/simul_mvt_brownien.png)
 
 ## Résultats / Observations
 - Les rendements logarithmiques présentent une asymétrie négative et des queues épaisses
