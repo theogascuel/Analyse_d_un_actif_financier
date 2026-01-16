@@ -45,6 +45,8 @@ python main.py
  - Rapide projection vers le mouvement brownien géométrique: 
      - Simulation numérique du mouvement brownien
      - Simulation d'un prix d'actif
+ - Discussion
+ - Conclusion  
 
 ## Quelques graphiques
 ![Comparaison entre le prix ajusté et les rendements simple/logarithmique](graphiques/prix_vs_rendements.png)
