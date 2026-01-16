@@ -33,7 +33,19 @@ Après avoir installé les bibliothèques nécessaires, exécutez le programme:
 ```bash
 python main.py
 ```
+## Plan du rapport
+### Introduction
+### Analyse des prix
+### Analyse des rendements
+#### Les différents rendements
+#### Analyse statistique
+### Volatilité
+### Mesure du risque (VaR)
+### Rapide projection vers le mouvement brownien géométrique
+#### Simulation numérique du mouvement brownien
+#### Simulation d'un prix d'actif
 
+## Quelques graphiques
 ![Comparaison entre le prix ajusté et les rendements simple/logarithmique](graphiques/prix_vs_rendements.png)
 ![Histogramme de comparaison entre les rendements logarithmiques et une distribution normale](graphiques/histogramme.png)
 ![Graphique de cinq simulations de mouvement brownien](graphiques/simul_mvt_brownien.png)
