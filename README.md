@@ -11,7 +11,7 @@ Ce projet a pour but de lier modèles financiers et observations, tout en releva
 - Calcul et affichage de la volatilité historique et glissante sur 20 et 60 jours
 - Calcul de la VaR historique et paramétrique/normale
 - Calcul et comparaison des pertes prévues et pertes réelles
-- Début de simulation de mouvements brownien
+- Début de simulation de mouvements browniens
 ## Installation et Prérequis
 ### Prérequis
 - Python 3.8 à 3.12
@@ -58,5 +58,5 @@ python main.py
 - La volatilité glissante est plus sensible aux périodes de stress
 - La VaR paramétrique/normale sous-estime légèrement le risque par rapport à la VaR historique
 - La VaR historique est cohérente dans le calcul de pertes
-- La majorité des trajectoirs du mouvement brownien oscille autour d'une tendance moyenne, même si certaines réalisent des performances extrêmes
+- La majorité des trajectoires du mouvement brownien oscille autour d'une tendance moyenne, même si certaines réalisent des performances extrêmes
 
