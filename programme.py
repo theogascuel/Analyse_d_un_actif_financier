@@ -92,8 +92,8 @@ plt.show()
 
 
 
-jb_test = stats.jarque_bera(df_nouv) # Test de Jarque-Bera pour avoir la p-value (si p-value < 0.05: rejet de l'hypothèse de normalité)
-print("Test de Jarque-Bera:", jb_test)
+statistique, p_value = stats.jarque_bera(df_nouv) # Test de Jarque-Bera pour avoir la p-value (si p-value < 0.05: rejet de l'hypothèse de normalité)
+print(f"Test de Jarque-Bera: Statistique = {statistique} et p-value = {p_value}")
 
 
 
@@ -164,7 +164,7 @@ elif nb_dep < borne_inf:
     print("La VaR sur estime le risque")
 else:
     print("La VaR sous-estime le risque")
-    
+
     
 # Début de simulation de mouvement brownien
 M = 252 # Nombre de pas correspondant aux nombres de jours ouvrés par an en moyenne
