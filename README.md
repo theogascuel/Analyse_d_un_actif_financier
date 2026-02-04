@@ -3,7 +3,7 @@
 L'objectif de ce projet est d'étudier les rendements de l'ETF Amundi PEA MSCI Europe, qui réplique un indice d'actions européen.
 A partir de données de prix journaliers, nous construirons les rendements de l'ETF et étudierons la normalité des rendements, l'évolution de la volatilité dans le temps, puis l'impact de ces caractéristiques sur l'estimation du risque et nous terminerons enfin par une simulation de mouvements browniens. 
 Ce projet a pour but de lier modèles financiers et observations, tout en relevant les limites des hypothèses et les enjeux de la modélisation du risque sur les marchés financiers.
-## Fonctionnalités
+## Fonctionnalités du programme Python
 - Affichage du prix ajusté de l'ETF
 - Calcul et affichage du rendement simple et du rendement simple cumulé
 - Calcul et affichage du rendement logarithmique et rendement logarithmique cumulé
@@ -53,10 +53,12 @@ python main.py
 ![Graphique de cinq simulations de mouvement brownien](graphiques/simul_mvt_brownien.png)
 
 ## Résultats / Observations
-- Les rendements logarithmiques présentent une asymétrie négative et des queues épaisses
-- Le test de Jarque-Bera rejète l'hypothèse de normalité
-- La volatilité glissante est plus sensible aux périodes de stress
-- La VaR paramétrique/normale sous-estime légèrement le risque par rapport à la VaR historique
-- La VaR historique est cohérente dans le calcul de pertes
+- Distribution non normale : asymétrie négative et kurtosis élevée, c'est-à-dire une présence de queues épaisses et d'événements extrêmes fréquents.
+- Le test de Jarque-Bera rejète l'hypothèse de normalité.
+- La volatilité varie dans le temps : sur une fenêtre 20 jours, elle est plus sensible aux variations rapides, et sur une fenêtre de 60 jours, elle capture les tendances à long terme.
+- La VaR paramétrique/normale sous-estime légèrement le risque par rapport à la VaR historique, qui reflète mieux les pertes réelles en prenant en compte les queues épaisses.
+- La VaR historique est cohérente dans le calcul de pertes.
 - La majorité des trajectoires du mouvement brownien oscille autour d'une tendance moyenne, même si certaines réalisent des performances extrêmes
+- Les hypothèses classiques (normalité des rendements, volatilité constante) sont simplificatrices.
+- Modèles utiles pour la compréhension et la pédagogie, mais insuffisants pour une gestion réaliste du risque.
 
